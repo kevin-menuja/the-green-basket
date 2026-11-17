@@ -1,6 +1,6 @@
-# TheGreenBasket — Java OOP Desktop Application
+# The Green Basket — Java OOP Desktop Application
 
-A **Java Swing GUI application** created for an **Object-Oriented Programming (OOP)** academic assignment. The project demonstrates a basic product and inventory workflow with a NetBeans form-based interface.
+**The Green Basket** is a Java Swing desktop application completed for the **Object-Oriented Programming (OOP)** module in the **2nd semester** of the **Higher Diploma in Computing & Software Engineering**. It demonstrates a basic grocery product and inventory workflow through a NetBeans form-based interface.
 
 > **Classroom demonstration only.** This software uses local text-file persistence and basic, insecure demo authentication. It is not a production retail system.
 
