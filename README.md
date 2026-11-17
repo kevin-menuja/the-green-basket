@@ -4,6 +4,18 @@ A **Java Swing GUI application** created for an **Object-Oriented Programming (O
 
 > **Classroom demonstration only.** This software uses local text-file persistence and basic, insecure demo authentication. It is not a production retail system.
 
+## Desktop application screenshots
+
+| Login | Add product |
+| --- | --- |
+| ![Java Swing login](assets/screenshots/login-screen.png) | ![Add product form](assets/screenshots/add-product-form.png) |
+
+![Search products by category](assets/screenshots/search-products.png)
+
+*Actual historical Java Swing screens from the submitted coursework report.*
+
+**Explore:** [Application structure](docs/ARCHITECTURE.md) · [OOP case study](docs/CASE_STUDY.md) · [Screenshot provenance](docs/SCREENSHOT_EVIDENCE.md)
+
 ## Functions found in source
 
 - Login form and user creation
