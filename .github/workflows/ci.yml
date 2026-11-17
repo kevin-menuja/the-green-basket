@@ -1,0 +1,25 @@
+name: Academic Java OOP compilation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  java:
+    name: Compile Java 21 source
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Compile Swing classes
+        run: |
+          mkdir -p out
+          javac -encoding UTF-8 -d out src/*.java
